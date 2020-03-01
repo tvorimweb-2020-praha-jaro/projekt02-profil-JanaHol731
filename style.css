@@ -14,6 +14,90 @@ html { box-sizing: border-box; }
 */
 
 
-body {
+body { 
     background-color: #bdc3c7;
+    font-family: 'Source Sans Pro';
+    line-height: 1.5;   
+     
+}
+
+.profil{
+background-color: #31363b ;
+width: 250px;
+/*height: 90vh;*/
+margin: 0px 20px;
+box-shadow: 2px 2px 2px  #31363b ;
+}
+
+.foto {
+    width: 250px;
+    position: relative;
+}
+
+.logo{
+    border-radius: 50%;
+    background-color:#b92e81;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+
+h1 {
+    font-family: 'Montserrat',15px;
+    font-size: 1.5rem;
+    color: white;
+    margin: 20px 15px;
+}
+
+p {
+    font-family: 'Source Sans Pro';  
+    font-size: 1rem;
+    color: white;
+    margin: 30px 15px;
+}
+    
+li {
+display:inline-block;
+border-top:#3f464d;
+border-top-style: solid;
+border-top-width: 1px;
+width: 250px;
+
+}
+
+ul{
+    padding: 0%;
+    text-align: center;
+}
+  
+a{
+display:block ;
+color:white;
+text-decoration:none;
+text-transform: uppercase;
+font-family: 'Montserrat';
+padding: 0.5em;
+font-weight: bold;
+}
+
+li.facebook{
+    width: 50%;
+}
+
+li.twitter{
+    width: 50%;
+}
+
+.facebook a:hover{
+    width: 100%;
+    background-color:#3b5998;
+}
+
+.twitter a:hover{
+    width: 100%;
+    background-color:#1da1f2;
+}
+
+.portfolio a:hover{
+    background-color:#e74c3c;
 }
